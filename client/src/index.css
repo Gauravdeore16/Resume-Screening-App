@@ -1,0 +1,72 @@
+/* index.css - Clean and visually pleasing */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f9f9f9, #e8f0ff);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card-like container for your app */
+.app-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Headings */
+h1, h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Input box */
+input, textarea {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #3b7fd8;
+}
+
+/* Response or message box */
+.response-box {
+  margin-top: 20px;
+  background-color: #f1f9ff;
+  border-left: 5px solid #4a90e2;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  white-space: pre-wrap;
+}

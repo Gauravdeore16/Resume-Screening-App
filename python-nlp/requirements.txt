@@ -1,0 +1,9 @@
+flask
+flask-cors
+pymongo
+nltk
+numpy
+scikit-learn
+spacy
+pdfminer.six
+python-dotenv
